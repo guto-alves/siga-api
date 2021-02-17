@@ -1,0 +1,11 @@
+package com.gutotech.sigaapi.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.gutotech.sigaapi.model.Avaliacao;
+
+@Repository
+public interface AvaliacaoRepository extends JpaRepository<Avaliacao, Long> {
+	
+}
